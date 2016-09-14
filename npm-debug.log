@@ -1,0 +1,1596 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.4.3/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.4.3/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt-contrib-copy',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.3
+4 verbose install initial load of /home/ubuntu/workspace/bloc/bloc-jams-angular/package.json
+5 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/connect-modrewrite/package.json
+6 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/es5-shim/package.json
+7 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt/package.json
+8 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-cli/package.json
+9 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-clean/package.json
+10 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/package.json
+11 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-watch/package.json
+12 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-hapi/package.json
+13 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/hapi/package.json
+14 verbose installManyTop reading scoped package data from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/path/package.json
+15 info package.json connect-modrewrite@0.7.12 No license field.
+16 info package.json grunt-contrib-clean@0.6.0 No license field.
+17 info package.json grunt-cli@0.1.13 No license field.
+18 info package.json grunt-contrib-copy@0.5.0 No license field.
+19 info package.json grunt-hapi@0.8.1 No license field.
+20 info package.json path@0.4.10 path is also the name of a node core module.
+21 info package.json hapi@7.5.3 No license field.
+22 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc/bloc-jams-angular/package.json
+23 verbose install grunt-contrib-copy is installed as 0.5.0
+24 silly cache add args [ 'grunt-contrib-copy', null ]
+25 verbose cache add spec grunt-contrib-copy
+26 silly cache add parsed spec Result {
+26 silly cache add   raw: 'grunt-contrib-copy',
+26 silly cache add   scope: null,
+26 silly cache add   name: 'grunt-contrib-copy',
+26 silly cache add   rawSpec: '',
+26 silly cache add   spec: 'latest',
+26 silly cache add   type: 'tag' }
+27 silly addNamed grunt-contrib-copy@latest
+28 verbose addNamed "latest" is being treated as a dist-tag for grunt-contrib-copy
+29 info addNameTag [ 'grunt-contrib-copy', 'latest' ]
+30 silly mapToRegistry name grunt-contrib-copy
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry data Result {
+33 silly mapToRegistry   raw: 'grunt-contrib-copy',
+33 silly mapToRegistry   scope: null,
+33 silly mapToRegistry   name: 'grunt-contrib-copy',
+33 silly mapToRegistry   rawSpec: '',
+33 silly mapToRegistry   spec: 'latest',
+33 silly mapToRegistry   type: 'tag' }
+34 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-copy
+35 verbose addNameTag registry:https://registry.npmjs.org/grunt-contrib-copy not in flight; fetching
+36 verbose request uri https://registry.npmjs.org/grunt-contrib-copy
+37 verbose request no auth needed
+38 info attempt registry request try #1 at 5:27:47 PM
+39 verbose request id 4b67b356cf54efb2
+40 verbose etag "67AP5O3NOL7B9YTXGUEFQONCQ"
+41 http request GET https://registry.npmjs.org/grunt-contrib-copy
+42 http 304 https://registry.npmjs.org/grunt-contrib-copy
+43 verbose headers { date: 'Wed, 14 Sep 2016 17:27:47 GMT',
+43 verbose headers   via: '1.1 varnish',
+43 verbose headers   'cache-control': 'max-age=300',
+43 verbose headers   etag: '"67AP5O3NOL7B9YTXGUEFQONCQ"',
+43 verbose headers   age: '257',
+43 verbose headers   connection: 'keep-alive',
+43 verbose headers   'x-served-by': 'cache-ord1741-ORD',
+43 verbose headers   'x-cache': 'HIT',
+43 verbose headers   'x-cache-hits': '2',
+43 verbose headers   'x-timer': 'S1473874067.531417,VS0,VE0',
+43 verbose headers   vary: 'Accept-Encoding' }
+44 silly get cb [ 304,
+44 silly get   { date: 'Wed, 14 Sep 2016 17:27:47 GMT',
+44 silly get     via: '1.1 varnish',
+44 silly get     'cache-control': 'max-age=300',
+44 silly get     etag: '"67AP5O3NOL7B9YTXGUEFQONCQ"',
+44 silly get     age: '257',
+44 silly get     connection: 'keep-alive',
+44 silly get     'x-served-by': 'cache-ord1741-ORD',
+44 silly get     'x-cache': 'HIT',
+44 silly get     'x-cache-hits': '2',
+44 silly get     'x-timer': 'S1473874067.531417,VS0,VE0',
+44 silly get     vary: 'Accept-Encoding' } ]
+45 verbose etag https://registry.npmjs.org/grunt-contrib-copy from cache
+46 verbose get saving grunt-contrib-copy to /home/ubuntu/.npm/registry.npmjs.org/grunt-contrib-copy/.cache.json
+47 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+48 silly addNameTag next cb for grunt-contrib-copy with tag latest
+49 silly addNamed grunt-contrib-copy@1.0.0
+50 verbose addNamed "1.0.0" is a plain semver version for grunt-contrib-copy
+51 silly cache afterAdd grunt-contrib-copy@1.0.0
+52 verbose afterAdd /home/ubuntu/.npm/grunt-contrib-copy/1.0.0/package/package.json not in flight; writing
+53 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+54 verbose afterAdd /home/ubuntu/.npm/grunt-contrib-copy/1.0.0/package/package.json written
+55 silly install resolved [ { name: 'grunt-contrib-copy',
+55 silly install resolved     description: 'Copy files and folders',
+55 silly install resolved     version: '1.0.0',
+55 silly install resolved     author: { name: 'Grunt Team', url: 'http://gruntjs.com/' },
+55 silly install resolved     repository:
+55 silly install resolved      { type: 'git',
+55 silly install resolved        url: 'git+https://github.com/gruntjs/grunt-contrib-copy.git' },
+55 silly install resolved     license: 'MIT',
+55 silly install resolved     engines: { node: '>=0.10.0' },
+55 silly install resolved     main: 'tasks/copy.js',
+55 silly install resolved     scripts: { test: 'grunt test' },
+55 silly install resolved     dependencies: { chalk: '^1.1.1', 'file-sync-cmp': '^0.1.0' },
+55 silly install resolved     devDependencies:
+55 silly install resolved      { grunt: '^0.4.5',
+55 silly install resolved        'grunt-cli': '^0.1.13',
+55 silly install resolved        'grunt-contrib-clean': '^1.0.0',
+55 silly install resolved        'grunt-contrib-internal': '^0.4.5',
+55 silly install resolved        'grunt-contrib-jshint': '^1.0.0',
+55 silly install resolved        'grunt-contrib-nodeunit': '^0.4.1' },
+55 silly install resolved     keywords: [ 'gruntplugin' ],
+55 silly install resolved     files: [ 'tasks' ],
+55 silly install resolved     appveyor_id: 'fe6l517l01ys2y86',
+55 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+55 silly install resolved     gitHead: '85150c7bfef1279911cb844eefdcd7b2c31ad9d1',
+55 silly install resolved     bugs: { url: 'https://github.com/gruntjs/grunt-contrib-copy/issues' },
+55 silly install resolved     homepage: 'https://github.com/gruntjs/grunt-contrib-copy#readme',
+55 silly install resolved     _id: 'grunt-contrib-copy@1.0.0',
+55 silly install resolved     _shasum: '7060c6581e904b8ab0d00f076e0a8f6e3e7c3573',
+55 silly install resolved     _from: 'grunt-contrib-copy@latest',
+55 silly install resolved     _npmVersion: '3.6.0',
+55 silly install resolved     _nodeVersion: '5.7.1',
+55 silly install resolved     _npmUser: { name: 'vladikoff', email: 'vlad@vladikoff.com' },
+55 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+55 silly install resolved     dist:
+55 silly install resolved      { shasum: '7060c6581e904b8ab0d00f076e0a8f6e3e7c3573',
+55 silly install resolved        tarball: 'https://registry.npmjs.org/grunt-contrib-copy/-/grunt-contrib-copy-1.0.0.tgz' },
+55 silly install resolved     _npmOperationalInternal:
+55 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+55 silly install resolved        tmp: 'tmp/grunt-contrib-copy-1.0.0.tgz_1457124726949_0.22643410600721836' },
+55 silly install resolved     directories: {},
+55 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-contrib-copy/-/grunt-contrib-copy-1.0.0.tgz',
+55 silly install resolved     readme: 'ERROR: No README data found!' } ]
+56 info install grunt-contrib-copy@1.0.0 into /home/ubuntu/workspace/bloc/bloc-jams-angular
+57 info installOne grunt-contrib-copy@1.0.0
+58 verbose installOne of grunt-contrib-copy to /home/ubuntu/workspace/bloc/bloc-jams-angular not in flight; installing
+59 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+60 verbose lock using /home/ubuntu/.npm/_locks/grunt-contrib-copy-199e12e1e656ea59.lock for /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy
+61 silly install write writing grunt-contrib-copy 1.0.0 to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy
+62 verbose unbuild node_modules/grunt-contrib-copy
+63 info preuninstall grunt-contrib-copy@0.5.0
+64 info uninstall grunt-contrib-copy@0.5.0
+65 verbose unbuild rmStuff grunt-contrib-copy@0.5.0 from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules
+66 info postuninstall grunt-contrib-copy@0.5.0
+67 silly gentlyRm /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy is being purged from base /home/ubuntu/workspace/bloc/bloc-jams-angular
+68 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy
+69 silly vacuum-fs purging /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy
+70 silly vacuum-fs quitting because other entries in /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules
+71 verbose tar unpack /home/ubuntu/.npm/grunt-contrib-copy/1.0.0/package.tgz
+72 verbose tar unpacking to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy
+73 silly gentlyRm /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy is being purged
+74 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy
+75 silly gunzTarPerm modes [ '755', '644' ]
+76 silly gunzTarPerm extractEntry package.json
+77 silly gunzTarPerm extractEntry README.md
+78 silly gunzTarPerm extractEntry CHANGELOG
+79 silly gunzTarPerm extractEntry tasks/copy.js
+80 verbose write writing to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/package.json
+81 info preinstall grunt-contrib-copy@1.0.0
+82 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/package.json
+83 silly prepareForInstallMany adding chalk@^1.1.1 from grunt-contrib-copy dependencies
+84 silly prepareForInstallMany adding file-sync-cmp@^0.1.0 from grunt-contrib-copy dependencies
+85 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/package.json
+86 silly cache add args [ 'file-sync-cmp@^0.1.0', null ]
+87 verbose cache add spec file-sync-cmp@^0.1.0
+88 silly cache add parsed spec Result {
+88 silly cache add   raw: 'file-sync-cmp@^0.1.0',
+88 silly cache add   scope: null,
+88 silly cache add   name: 'file-sync-cmp',
+88 silly cache add   rawSpec: '^0.1.0',
+88 silly cache add   spec: '>=0.1.0 <0.2.0',
+88 silly cache add   type: 'range' }
+89 silly addNamed file-sync-cmp@>=0.1.0 <0.2.0
+90 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for file-sync-cmp
+91 silly addNameRange { name: 'file-sync-cmp',
+91 silly addNameRange   range: '>=0.1.0 <0.2.0',
+91 silly addNameRange   hasData: false }
+92 silly mapToRegistry name file-sync-cmp
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry data Result {
+95 silly mapToRegistry   raw: 'file-sync-cmp',
+95 silly mapToRegistry   scope: null,
+95 silly mapToRegistry   name: 'file-sync-cmp',
+95 silly mapToRegistry   rawSpec: '',
+95 silly mapToRegistry   spec: 'latest',
+95 silly mapToRegistry   type: 'tag' }
+96 silly mapToRegistry uri https://registry.npmjs.org/file-sync-cmp
+97 verbose addNameRange registry:https://registry.npmjs.org/file-sync-cmp not in flight; fetching
+98 silly cache add args [ 'chalk@^1.1.1', null ]
+99 verbose cache add spec chalk@^1.1.1
+100 silly cache add parsed spec Result {
+100 silly cache add   raw: 'chalk@^1.1.1',
+100 silly cache add   scope: null,
+100 silly cache add   name: 'chalk',
+100 silly cache add   rawSpec: '^1.1.1',
+100 silly cache add   spec: '>=1.1.1 <2.0.0',
+100 silly cache add   type: 'range' }
+101 silly addNamed chalk@>=1.1.1 <2.0.0
+102 verbose addNamed ">=1.1.1 <2.0.0" is a valid semver range for chalk
+103 silly addNameRange { name: 'chalk', range: '>=1.1.1 <2.0.0', hasData: false }
+104 silly mapToRegistry name chalk
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry data Result {
+107 silly mapToRegistry   raw: 'chalk',
+107 silly mapToRegistry   scope: null,
+107 silly mapToRegistry   name: 'chalk',
+107 silly mapToRegistry   rawSpec: '',
+107 silly mapToRegistry   spec: 'latest',
+107 silly mapToRegistry   type: 'tag' }
+108 silly mapToRegistry uri https://registry.npmjs.org/chalk
+109 verbose addNameRange registry:https://registry.npmjs.org/chalk not in flight; fetching
+110 verbose request uri https://registry.npmjs.org/file-sync-cmp
+111 verbose request no auth needed
+112 info attempt registry request try #1 at 5:27:47 PM
+113 verbose etag "7NWSRDSAW0M781QIEMX5NYY63"
+114 http request GET https://registry.npmjs.org/file-sync-cmp
+115 verbose request uri https://registry.npmjs.org/chalk
+116 verbose request no auth needed
+117 info attempt registry request try #1 at 5:27:47 PM
+118 verbose etag "948U77NX4AMXZZPG8PAKQN24T"
+119 http request GET https://registry.npmjs.org/chalk
+120 http 304 https://registry.npmjs.org/file-sync-cmp
+121 verbose headers { date: 'Wed, 14 Sep 2016 17:27:47 GMT',
+121 verbose headers   via: '1.1 varnish',
+121 verbose headers   'cache-control': 'max-age=300',
+121 verbose headers   etag: '"7NWSRDSAW0M781QIEMX5NYY63"',
+121 verbose headers   age: '74',
+121 verbose headers   connection: 'keep-alive',
+121 verbose headers   'x-served-by': 'cache-ord1741-ORD',
+121 verbose headers   'x-cache': 'HIT',
+121 verbose headers   'x-cache-hits': '1',
+121 verbose headers   'x-timer': 'S1473874067.744785,VS0,VE0',
+121 verbose headers   vary: 'Accept-Encoding' }
+122 silly get cb [ 304,
+122 silly get   { date: 'Wed, 14 Sep 2016 17:27:47 GMT',
+122 silly get     via: '1.1 varnish',
+122 silly get     'cache-control': 'max-age=300',
+122 silly get     etag: '"7NWSRDSAW0M781QIEMX5NYY63"',
+122 silly get     age: '74',
+122 silly get     connection: 'keep-alive',
+122 silly get     'x-served-by': 'cache-ord1741-ORD',
+122 silly get     'x-cache': 'HIT',
+122 silly get     'x-cache-hits': '1',
+122 silly get     'x-timer': 'S1473874067.744785,VS0,VE0',
+122 silly get     vary: 'Accept-Encoding' } ]
+123 verbose etag https://registry.npmjs.org/file-sync-cmp from cache
+124 verbose get saving file-sync-cmp to /home/ubuntu/.npm/registry.npmjs.org/file-sync-cmp/.cache.json
+125 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+126 silly addNameRange number 2 { name: 'file-sync-cmp', range: '>=0.1.0 <0.2.0', hasData: true }
+127 silly addNameRange versions [ 'file-sync-cmp', [ '0.1.0', '0.1.1' ] ]
+128 silly addNamed file-sync-cmp@0.1.1
+129 verbose addNamed "0.1.1" is a plain semver version for file-sync-cmp
+130 silly cache afterAdd file-sync-cmp@0.1.1
+131 verbose afterAdd /home/ubuntu/.npm/file-sync-cmp/0.1.1/package/package.json not in flight; writing
+132 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+133 verbose afterAdd /home/ubuntu/.npm/file-sync-cmp/0.1.1/package/package.json written
+134 http 304 https://registry.npmjs.org/chalk
+135 verbose headers { date: 'Wed, 14 Sep 2016 17:27:47 GMT',
+135 verbose headers   via: '1.1 varnish',
+135 verbose headers   'cache-control': 'max-age=300',
+135 verbose headers   etag: '"948U77NX4AMXZZPG8PAKQN24T"',
+135 verbose headers   age: '241',
+135 verbose headers   connection: 'keep-alive',
+135 verbose headers   'x-served-by': 'cache-ord1735-ORD',
+135 verbose headers   'x-cache': 'HIT',
+135 verbose headers   'x-cache-hits': '19',
+135 verbose headers   'x-timer': 'S1473874067.777665,VS0,VE0',
+135 verbose headers   vary: 'Accept-Encoding' }
+136 silly get cb [ 304,
+136 silly get   { date: 'Wed, 14 Sep 2016 17:27:47 GMT',
+136 silly get     via: '1.1 varnish',
+136 silly get     'cache-control': 'max-age=300',
+136 silly get     etag: '"948U77NX4AMXZZPG8PAKQN24T"',
+136 silly get     age: '241',
+136 silly get     connection: 'keep-alive',
+136 silly get     'x-served-by': 'cache-ord1735-ORD',
+136 silly get     'x-cache': 'HIT',
+136 silly get     'x-cache-hits': '19',
+136 silly get     'x-timer': 'S1473874067.777665,VS0,VE0',
+136 silly get     vary: 'Accept-Encoding' } ]
+137 verbose etag https://registry.npmjs.org/chalk from cache
+138 verbose get saving chalk to /home/ubuntu/.npm/registry.npmjs.org/chalk/.cache.json
+139 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+140 silly addNameRange number 2 { name: 'chalk', range: '>=1.1.1 <2.0.0', hasData: true }
+141 silly addNameRange versions [ 'chalk',
+141 silly addNameRange   [ '0.1.0',
+141 silly addNameRange     '0.1.1',
+141 silly addNameRange     '0.2.0',
+141 silly addNameRange     '0.2.1',
+141 silly addNameRange     '0.3.0',
+141 silly addNameRange     '0.4.0',
+141 silly addNameRange     '0.5.0',
+141 silly addNameRange     '0.5.1',
+141 silly addNameRange     '1.0.0',
+141 silly addNameRange     '1.1.0',
+141 silly addNameRange     '1.1.1',
+141 silly addNameRange     '1.1.2',
+141 silly addNameRange     '1.1.3' ] ]
+142 silly addNamed chalk@1.1.3
+143 verbose addNamed "1.1.3" is a plain semver version for chalk
+144 silly cache afterAdd chalk@1.1.3
+145 verbose afterAdd /home/ubuntu/.npm/chalk/1.1.3/package/package.json not in flight; writing
+146 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+147 verbose afterAdd /home/ubuntu/.npm/chalk/1.1.3/package/package.json written
+148 silly install resolved [ { name: 'file-sync-cmp',
+148 silly install resolved     version: '0.1.1',
+148 silly install resolved     description: 'Synchronous file comparison',
+148 silly install resolved     main: 'index.js',
+148 silly install resolved     homepage: 'https://github.com/mgeisler/file-sync-cmp/',
+148 silly install resolved     repository:
+148 silly install resolved      { type: 'git',
+148 silly install resolved        url: 'git+https://github.com/mgeisler/file-sync-cmp.git' },
+148 silly install resolved     keywords: [ 'comparison' ],
+148 silly install resolved     author:
+148 silly install resolved      { name: 'Martin Geisler',
+148 silly install resolved        email: 'martin@geisler.net',
+148 silly install resolved        url: 'http://geisler.net/' },
+148 silly install resolved     license: 'MIT',
+148 silly install resolved     bugs: { url: 'https://github.com/mgeisler/file-sync-cmp/issues' },
+148 silly install resolved     devDependencies: { eslint: '0.10.1', mocha: '2.0.1', q: '1.1.2', tmp: '0.0.24' },
+148 silly install resolved     scripts: { test: 'eslint . && mocha' },
+148 silly install resolved     gitHead: '1cf1e51b84378e702e21330213f5bed7b1e3ab79',
+148 silly install resolved     _id: 'file-sync-cmp@0.1.1',
+148 silly install resolved     _shasum: 'a5e7a8ffbfa493b43b923bbd4ca89a53b63b612b',
+148 silly install resolved     _from: 'file-sync-cmp@>=0.1.0 <0.2.0',
+148 silly install resolved     _npmVersion: '1.4.21',
+148 silly install resolved     _npmUser: { name: 'mgeisler', email: 'martin@geisler.net' },
+148 silly install resolved     maintainers: [ [Object] ],
+148 silly install resolved     dist:
+148 silly install resolved      { shasum: 'a5e7a8ffbfa493b43b923bbd4ca89a53b63b612b',
+148 silly install resolved        tarball: 'https://registry.npmjs.org/file-sync-cmp/-/file-sync-cmp-0.1.1.tgz' },
+148 silly install resolved     directories: {},
+148 silly install resolved     _resolved: 'https://registry.npmjs.org/file-sync-cmp/-/file-sync-cmp-0.1.1.tgz',
+148 silly install resolved     readme: 'ERROR: No README data found!' },
+148 silly install resolved   { name: 'chalk',
+148 silly install resolved     version: '1.1.3',
+148 silly install resolved     description: 'Terminal string styling done right. Much color.',
+148 silly install resolved     license: 'MIT',
+148 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/chalk/chalk.git' },
+148 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+148 silly install resolved     engines: { node: '>=0.10.0' },
+148 silly install resolved     scripts:
+148 silly install resolved      { test: 'xo && mocha',
+148 silly install resolved        bench: 'matcha benchmark.js',
+148 silly install resolved        coverage: 'nyc npm test && nyc report',
+148 silly install resolved        coveralls: 'nyc npm test && nyc report --reporter=text-lcov | coveralls' },
+148 silly install resolved     files: [ 'index.js' ],
+148 silly install resolved     keywords:
+148 silly install resolved      [ 'color',
+148 silly install resolved        'colour',
+148 silly install resolved        'colors',
+148 silly install resolved        'terminal',
+148 silly install resolved        'console',
+148 silly install resolved        'cli',
+148 silly install resolved        'string',
+148 silly install resolved        'str',
+148 silly install resolved        'ansi',
+148 silly install resolved        'style',
+148 silly install resolved        'styles',
+148 silly install resolved        'tty',
+148 silly install resolved        'formatting',
+148 silly install resolved        'rgb',
+148 silly install resolved        '256',
+148 silly install resolved        'shell',
+148 silly install resolved        'xterm',
+148 silly install resolved        'log',
+148 silly install resolved        'logging',
+148 silly install resolved        'command-line',
+148 silly install resolved        'text' ],
+148 silly install resolved     dependencies:
+148 silly install resolved      { 'ansi-styles': '^2.2.1',
+148 silly install resolved        'escape-string-regexp': '^1.0.2',
+148 silly install resolved        'has-ansi': '^2.0.0',
+148 silly install resolved        'strip-ansi': '^3.0.0',
+148 silly install resolved        'supports-color': '^2.0.0' },
+148 silly install resolved     devDependencies:
+148 silly install resolved      { coveralls: '^2.11.2',
+148 silly install resolved        matcha: '^0.6.0',
+148 silly install resolved        mocha: '*',
+148 silly install resolved        nyc: '^3.0.0',
+148 silly install resolved        'require-uncached': '^1.0.2',
+148 silly install resolved        'resolve-from': '^1.0.0',
+148 silly install resolved        semver: '^4.3.3',
+148 silly install resolved        xo: '*' },
+148 silly install resolved     xo: { envs: [Object] },
+148 silly install resolved     gitHead: '0d8d8c204eb87a4038219131ad4d8369c9f59d24',
+148 silly install resolved     bugs: { url: 'https://github.com/chalk/chalk/issues' },
+148 silly install resolved     homepage: 'https://github.com/chalk/chalk#readme',
+148 silly install resolved     _id: 'chalk@1.1.3',
+148 silly install resolved     _shasum: 'a8115c55e4a702fe4d150abd3872822a7e09fc98',
+148 silly install resolved     _from: 'chalk@>=1.1.1 <2.0.0',
+148 silly install resolved     _npmVersion: '2.14.2',
+148 silly install resolved     _nodeVersion: '0.10.32',
+148 silly install resolved     _npmUser: { name: 'qix', email: 'i.am.qix@gmail.com' },
+148 silly install resolved     dist:
+148 silly install resolved      { shasum: 'a8115c55e4a702fe4d150abd3872822a7e09fc98',
+148 silly install resolved        tarball: 'https://registry.npmjs.org/chalk/-/chalk-1.1.3.tgz' },
+148 silly install resolved     _npmOperationalInternal:
+148 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+148 silly install resolved        tmp: 'tmp/chalk-1.1.3.tgz_1459210604109_0.3892582862172276' },
+148 silly install resolved     directories: {},
+148 silly install resolved     _resolved: 'https://registry.npmjs.org/chalk/-/chalk-1.1.3.tgz',
+148 silly install resolved     readme: 'ERROR: No README data found!' } ]
+149 info install file-sync-cmp@0.1.1 into /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy
+150 info install chalk@1.1.3 into /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy
+151 info installOne file-sync-cmp@0.1.1
+152 verbose installOne of file-sync-cmp to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy not in flight; installing
+153 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+154 info installOne chalk@1.1.3
+155 verbose installOne of chalk to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy not in flight; installing
+156 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+157 verbose lock using /home/ubuntu/.npm/_locks/file-sync-cmp-a761b186746a9487.lock for /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp
+158 verbose lock using /home/ubuntu/.npm/_locks/chalk-1b0a043c715c467b.lock for /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk
+159 silly install write writing file-sync-cmp 0.1.1 to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp
+160 silly install write writing chalk 1.1.3 to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk
+161 verbose unbuild node_modules/grunt-contrib-copy/node_modules/file-sync-cmp
+162 verbose unbuild node_modules/grunt-contrib-copy/node_modules/chalk
+163 silly gentlyRm /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp is being purged from base /home/ubuntu/workspace/bloc/bloc-jams-angular
+164 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp
+165 silly gentlyRm /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk is being purged from base /home/ubuntu/workspace/bloc/bloc-jams-angular
+166 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk
+167 verbose tar unpack /home/ubuntu/.npm/file-sync-cmp/0.1.1/package.tgz
+168 verbose tar unpacking to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp
+169 silly gentlyRm /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp is being purged
+170 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp
+171 verbose tar unpack /home/ubuntu/.npm/chalk/1.1.3/package.tgz
+172 verbose tar unpacking to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk
+173 silly gentlyRm /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk is being purged
+174 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk
+175 silly gunzTarPerm modes [ '755', '644' ]
+176 silly gunzTarPerm modes [ '755', '644' ]
+177 silly gunzTarPerm extractEntry package.json
+178 silly gunzTarPerm extractEntry index.js
+179 silly gunzTarPerm extractEntry license
+180 silly gunzTarPerm extractEntry package.json
+181 silly gunzTarPerm extractEntry .npmignore
+182 silly gunzTarPerm extractEntry README.md
+183 silly gunzTarPerm extractEntry readme.md
+184 silly gunzTarPerm extractEntry LICENSE
+185 silly gunzTarPerm extractEntry index.js
+186 silly gunzTarPerm extractEntry .eslintrc
+187 silly gunzTarPerm extractEntry .travis.yml
+188 silly gunzTarPerm extractEntry test/test.js
+189 silly gunzTarPerm extractEntry test/.eslintrc
+190 verbose write writing to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/package.json
+191 info preinstall chalk@1.1.3
+192 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/package.json
+193 silly prepareForInstallMany adding ansi-styles@^2.2.1 from chalk dependencies
+194 silly prepareForInstallMany adding escape-string-regexp@^1.0.2 from chalk dependencies
+195 silly prepareForInstallMany adding has-ansi@^2.0.0 from chalk dependencies
+196 silly prepareForInstallMany adding strip-ansi@^3.0.0 from chalk dependencies
+197 silly prepareForInstallMany adding supports-color@^2.0.0 from chalk dependencies
+198 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/package.json
+199 silly cache add args [ 'ansi-styles@^2.2.1', null ]
+200 verbose cache add spec ansi-styles@^2.2.1
+201 silly cache add args [ 'escape-string-regexp@^1.0.2', null ]
+202 verbose cache add spec escape-string-regexp@^1.0.2
+203 silly cache add parsed spec Result {
+203 silly cache add   raw: 'ansi-styles@^2.2.1',
+203 silly cache add   scope: null,
+203 silly cache add   name: 'ansi-styles',
+203 silly cache add   rawSpec: '^2.2.1',
+203 silly cache add   spec: '>=2.2.1 <3.0.0',
+203 silly cache add   type: 'range' }
+204 silly addNamed ansi-styles@>=2.2.1 <3.0.0
+205 verbose addNamed ">=2.2.1 <3.0.0" is a valid semver range for ansi-styles
+206 silly addNameRange { name: 'ansi-styles', range: '>=2.2.1 <3.0.0', hasData: false }
+207 silly mapToRegistry name ansi-styles
+208 silly mapToRegistry using default registry
+209 silly mapToRegistry registry https://registry.npmjs.org/
+210 silly mapToRegistry data Result {
+210 silly mapToRegistry   raw: 'ansi-styles',
+210 silly mapToRegistry   scope: null,
+210 silly mapToRegistry   name: 'ansi-styles',
+210 silly mapToRegistry   rawSpec: '',
+210 silly mapToRegistry   spec: 'latest',
+210 silly mapToRegistry   type: 'tag' }
+211 silly mapToRegistry uri https://registry.npmjs.org/ansi-styles
+212 verbose addNameRange registry:https://registry.npmjs.org/ansi-styles not in flight; fetching
+213 silly cache add parsed spec Result {
+213 silly cache add   raw: 'escape-string-regexp@^1.0.2',
+213 silly cache add   scope: null,
+213 silly cache add   name: 'escape-string-regexp',
+213 silly cache add   rawSpec: '^1.0.2',
+213 silly cache add   spec: '>=1.0.2 <2.0.0',
+213 silly cache add   type: 'range' }
+214 silly addNamed escape-string-regexp@>=1.0.2 <2.0.0
+215 verbose addNamed ">=1.0.2 <2.0.0" is a valid semver range for escape-string-regexp
+216 silly addNameRange { name: 'escape-string-regexp',
+216 silly addNameRange   range: '>=1.0.2 <2.0.0',
+216 silly addNameRange   hasData: false }
+217 silly mapToRegistry name escape-string-regexp
+218 silly mapToRegistry using default registry
+219 silly mapToRegistry registry https://registry.npmjs.org/
+220 silly mapToRegistry data Result {
+220 silly mapToRegistry   raw: 'escape-string-regexp',
+220 silly mapToRegistry   scope: null,
+220 silly mapToRegistry   name: 'escape-string-regexp',
+220 silly mapToRegistry   rawSpec: '',
+220 silly mapToRegistry   spec: 'latest',
+220 silly mapToRegistry   type: 'tag' }
+221 silly mapToRegistry uri https://registry.npmjs.org/escape-string-regexp
+222 verbose addNameRange registry:https://registry.npmjs.org/escape-string-regexp not in flight; fetching
+223 silly cache add args [ 'has-ansi@^2.0.0', null ]
+224 verbose cache add spec has-ansi@^2.0.0
+225 silly cache add parsed spec Result {
+225 silly cache add   raw: 'has-ansi@^2.0.0',
+225 silly cache add   scope: null,
+225 silly cache add   name: 'has-ansi',
+225 silly cache add   rawSpec: '^2.0.0',
+225 silly cache add   spec: '>=2.0.0 <3.0.0',
+225 silly cache add   type: 'range' }
+226 silly addNamed has-ansi@>=2.0.0 <3.0.0
+227 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for has-ansi
+228 silly addNameRange { name: 'has-ansi', range: '>=2.0.0 <3.0.0', hasData: false }
+229 silly mapToRegistry name has-ansi
+230 silly mapToRegistry using default registry
+231 silly mapToRegistry registry https://registry.npmjs.org/
+232 silly mapToRegistry data Result {
+232 silly mapToRegistry   raw: 'has-ansi',
+232 silly mapToRegistry   scope: null,
+232 silly mapToRegistry   name: 'has-ansi',
+232 silly mapToRegistry   rawSpec: '',
+232 silly mapToRegistry   spec: 'latest',
+232 silly mapToRegistry   type: 'tag' }
+233 silly mapToRegistry uri https://registry.npmjs.org/has-ansi
+234 verbose addNameRange registry:https://registry.npmjs.org/has-ansi not in flight; fetching
+235 silly cache add args [ 'strip-ansi@^3.0.0', null ]
+236 verbose cache add spec strip-ansi@^3.0.0
+237 silly cache add parsed spec Result {
+237 silly cache add   raw: 'strip-ansi@^3.0.0',
+237 silly cache add   scope: null,
+237 silly cache add   name: 'strip-ansi',
+237 silly cache add   rawSpec: '^3.0.0',
+237 silly cache add   spec: '>=3.0.0 <4.0.0',
+237 silly cache add   type: 'range' }
+238 silly addNamed strip-ansi@>=3.0.0 <4.0.0
+239 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for strip-ansi
+240 silly addNameRange { name: 'strip-ansi', range: '>=3.0.0 <4.0.0', hasData: false }
+241 silly mapToRegistry name strip-ansi
+242 silly mapToRegistry using default registry
+243 silly mapToRegistry registry https://registry.npmjs.org/
+244 silly mapToRegistry data Result {
+244 silly mapToRegistry   raw: 'strip-ansi',
+244 silly mapToRegistry   scope: null,
+244 silly mapToRegistry   name: 'strip-ansi',
+244 silly mapToRegistry   rawSpec: '',
+244 silly mapToRegistry   spec: 'latest',
+244 silly mapToRegistry   type: 'tag' }
+245 silly mapToRegistry uri https://registry.npmjs.org/strip-ansi
+246 verbose addNameRange registry:https://registry.npmjs.org/strip-ansi not in flight; fetching
+247 silly cache add args [ 'supports-color@^2.0.0', null ]
+248 verbose cache add spec supports-color@^2.0.0
+249 silly cache add parsed spec Result {
+249 silly cache add   raw: 'supports-color@^2.0.0',
+249 silly cache add   scope: null,
+249 silly cache add   name: 'supports-color',
+249 silly cache add   rawSpec: '^2.0.0',
+249 silly cache add   spec: '>=2.0.0 <3.0.0',
+249 silly cache add   type: 'range' }
+250 silly addNamed supports-color@>=2.0.0 <3.0.0
+251 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for supports-color
+252 silly addNameRange { name: 'supports-color',
+252 silly addNameRange   range: '>=2.0.0 <3.0.0',
+252 silly addNameRange   hasData: false }
+253 silly mapToRegistry name supports-color
+254 silly mapToRegistry using default registry
+255 silly mapToRegistry registry https://registry.npmjs.org/
+256 silly mapToRegistry data Result {
+256 silly mapToRegistry   raw: 'supports-color',
+256 silly mapToRegistry   scope: null,
+256 silly mapToRegistry   name: 'supports-color',
+256 silly mapToRegistry   rawSpec: '',
+256 silly mapToRegistry   spec: 'latest',
+256 silly mapToRegistry   type: 'tag' }
+257 silly mapToRegistry uri https://registry.npmjs.org/supports-color
+258 verbose addNameRange registry:https://registry.npmjs.org/supports-color not in flight; fetching
+259 verbose request uri https://registry.npmjs.org/ansi-styles
+260 verbose request no auth needed
+261 info attempt registry request try #1 at 5:27:47 PM
+262 verbose etag "2S43S9IH54YQSFIO0BL7CTRUF"
+263 http request GET https://registry.npmjs.org/ansi-styles
+264 verbose request uri https://registry.npmjs.org/escape-string-regexp
+265 verbose request no auth needed
+266 info attempt registry request try #1 at 5:27:47 PM
+267 verbose etag "CZGVWT6IGH0SQ7HGM0HFEBANF"
+268 http request GET https://registry.npmjs.org/escape-string-regexp
+269 verbose request uri https://registry.npmjs.org/strip-ansi
+270 verbose request no auth needed
+271 info attempt registry request try #1 at 5:27:47 PM
+272 verbose etag "B6TG8P0JRVWX1Y3QTWOIVFFNQ"
+273 http request GET https://registry.npmjs.org/strip-ansi
+274 verbose request uri https://registry.npmjs.org/supports-color
+275 verbose request no auth needed
+276 info attempt registry request try #1 at 5:27:47 PM
+277 verbose etag "87VJAKWYUF4A2G4LCQKH55FZE"
+278 http request GET https://registry.npmjs.org/supports-color
+279 verbose request uri https://registry.npmjs.org/has-ansi
+280 verbose request no auth needed
+281 info attempt registry request try #1 at 5:27:47 PM
+282 verbose etag "5BRJ6SWTFTG3PC77WJMU0S9MB"
+283 http request GET https://registry.npmjs.org/has-ansi
+284 http 304 https://registry.npmjs.org/ansi-styles
+285 verbose headers { date: 'Wed, 14 Sep 2016 17:27:47 GMT',
+285 verbose headers   via: '1.1 varnish',
+285 verbose headers   'cache-control': 'max-age=300',
+285 verbose headers   etag: '"2S43S9IH54YQSFIO0BL7CTRUF"',
+285 verbose headers   age: '84',
+285 verbose headers   connection: 'keep-alive',
+285 verbose headers   'x-served-by': 'cache-ord1741-ORD',
+285 verbose headers   'x-cache': 'HIT',
+285 verbose headers   'x-cache-hits': '9',
+285 verbose headers   'x-timer': 'S1473874067.903009,VS0,VE0',
+285 verbose headers   vary: 'Accept-Encoding' }
+286 silly get cb [ 304,
+286 silly get   { date: 'Wed, 14 Sep 2016 17:27:47 GMT',
+286 silly get     via: '1.1 varnish',
+286 silly get     'cache-control': 'max-age=300',
+286 silly get     etag: '"2S43S9IH54YQSFIO0BL7CTRUF"',
+286 silly get     age: '84',
+286 silly get     connection: 'keep-alive',
+286 silly get     'x-served-by': 'cache-ord1741-ORD',
+286 silly get     'x-cache': 'HIT',
+286 silly get     'x-cache-hits': '9',
+286 silly get     'x-timer': 'S1473874067.903009,VS0,VE0',
+286 silly get     vary: 'Accept-Encoding' } ]
+287 verbose etag https://registry.npmjs.org/ansi-styles from cache
+288 verbose get saving ansi-styles to /home/ubuntu/.npm/registry.npmjs.org/ansi-styles/.cache.json
+289 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+290 http 304 https://registry.npmjs.org/escape-string-regexp
+291 verbose headers { date: 'Wed, 14 Sep 2016 17:27:47 GMT',
+291 verbose headers   via: '1.1 varnish',
+291 verbose headers   'cache-control': 'max-age=300',
+291 verbose headers   etag: '"CZGVWT6IGH0SQ7HGM0HFEBANF"',
+291 verbose headers   age: '296',
+291 verbose headers   connection: 'keep-alive',
+291 verbose headers   'x-served-by': 'cache-ord1735-ORD',
+291 verbose headers   'x-cache': 'HIT',
+291 verbose headers   'x-cache-hits': '30',
+291 verbose headers   'x-timer': 'S1473874067.902924,VS0,VE0',
+291 verbose headers   vary: 'Accept-Encoding' }
+292 silly get cb [ 304,
+292 silly get   { date: 'Wed, 14 Sep 2016 17:27:47 GMT',
+292 silly get     via: '1.1 varnish',
+292 silly get     'cache-control': 'max-age=300',
+292 silly get     etag: '"CZGVWT6IGH0SQ7HGM0HFEBANF"',
+292 silly get     age: '296',
+292 silly get     connection: 'keep-alive',
+292 silly get     'x-served-by': 'cache-ord1735-ORD',
+292 silly get     'x-cache': 'HIT',
+292 silly get     'x-cache-hits': '30',
+292 silly get     'x-timer': 'S1473874067.902924,VS0,VE0',
+292 silly get     vary: 'Accept-Encoding' } ]
+293 verbose etag https://registry.npmjs.org/escape-string-regexp from cache
+294 verbose get saving escape-string-regexp to /home/ubuntu/.npm/registry.npmjs.org/escape-string-regexp/.cache.json
+295 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+296 silly addNameRange number 2 { name: 'ansi-styles', range: '>=2.2.1 <3.0.0', hasData: true }
+297 silly addNameRange versions [ 'ansi-styles',
+297 silly addNameRange   [ '0.1.0',
+297 silly addNameRange     '0.1.1',
+297 silly addNameRange     '0.1.2',
+297 silly addNameRange     '0.2.0',
+297 silly addNameRange     '1.0.0',
+297 silly addNameRange     '1.1.0',
+297 silly addNameRange     '2.0.0',
+297 silly addNameRange     '2.0.1',
+297 silly addNameRange     '2.1.0',
+297 silly addNameRange     '2.2.1' ] ]
+298 silly addNamed ansi-styles@2.2.1
+299 verbose addNamed "2.2.1" is a plain semver version for ansi-styles
+300 silly addNameRange number 2 { name: 'escape-string-regexp',
+300 silly addNameRange   range: '>=1.0.2 <2.0.0',
+300 silly addNameRange   hasData: true }
+301 silly addNameRange versions [ 'escape-string-regexp',
+301 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.5' ] ]
+302 silly addNamed escape-string-regexp@1.0.5
+303 verbose addNamed "1.0.5" is a plain semver version for escape-string-regexp
+304 silly cache afterAdd ansi-styles@2.2.1
+305 verbose afterAdd /home/ubuntu/.npm/ansi-styles/2.2.1/package/package.json not in flight; writing
+306 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+307 silly cache afterAdd escape-string-regexp@1.0.5
+308 verbose afterAdd /home/ubuntu/.npm/escape-string-regexp/1.0.5/package/package.json not in flight; writing
+309 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+310 verbose write writing to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp/package.json
+311 verbose afterAdd /home/ubuntu/.npm/ansi-styles/2.2.1/package/package.json written
+312 verbose afterAdd /home/ubuntu/.npm/escape-string-regexp/1.0.5/package/package.json written
+313 info preinstall file-sync-cmp@0.1.1
+314 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp/package.json
+315 http 304 https://registry.npmjs.org/supports-color
+316 verbose headers { date: 'Wed, 14 Sep 2016 17:27:47 GMT',
+316 verbose headers   via: '1.1 varnish',
+316 verbose headers   'cache-control': 'max-age=300',
+316 verbose headers   etag: '"87VJAKWYUF4A2G4LCQKH55FZE"',
+316 verbose headers   age: '186',
+316 verbose headers   connection: 'keep-alive',
+316 verbose headers   'x-served-by': 'cache-ord1736-ORD',
+316 verbose headers   'x-cache': 'HIT',
+316 verbose headers   'x-cache-hits': '16',
+316 verbose headers   'x-timer': 'S1473874067.938019,VS0,VE0',
+316 verbose headers   vary: 'Accept-Encoding' }
+317 silly get cb [ 304,
+317 silly get   { date: 'Wed, 14 Sep 2016 17:27:47 GMT',
+317 silly get     via: '1.1 varnish',
+317 silly get     'cache-control': 'max-age=300',
+317 silly get     etag: '"87VJAKWYUF4A2G4LCQKH55FZE"',
+317 silly get     age: '186',
+317 silly get     connection: 'keep-alive',
+317 silly get     'x-served-by': 'cache-ord1736-ORD',
+317 silly get     'x-cache': 'HIT',
+317 silly get     'x-cache-hits': '16',
+317 silly get     'x-timer': 'S1473874067.938019,VS0,VE0',
+317 silly get     vary: 'Accept-Encoding' } ]
+318 verbose etag https://registry.npmjs.org/supports-color from cache
+319 verbose get saving supports-color to /home/ubuntu/.npm/registry.npmjs.org/supports-color/.cache.json
+320 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+321 http 304 https://registry.npmjs.org/has-ansi
+322 verbose headers { date: 'Wed, 14 Sep 2016 17:27:47 GMT',
+322 verbose headers   via: '1.1 varnish',
+322 verbose headers   'cache-control': 'max-age=300',
+322 verbose headers   etag: '"5BRJ6SWTFTG3PC77WJMU0S9MB"',
+322 verbose headers   age: '186',
+322 verbose headers   connection: 'keep-alive',
+322 verbose headers   'x-served-by': 'cache-ord1731-ORD',
+322 verbose headers   'x-cache': 'HIT',
+322 verbose headers   'x-cache-hits': '18',
+322 verbose headers   'x-timer': 'S1473874067.938671,VS0,VE0',
+322 verbose headers   vary: 'Accept-Encoding' }
+323 silly get cb [ 304,
+323 silly get   { date: 'Wed, 14 Sep 2016 17:27:47 GMT',
+323 silly get     via: '1.1 varnish',
+323 silly get     'cache-control': 'max-age=300',
+323 silly get     etag: '"5BRJ6SWTFTG3PC77WJMU0S9MB"',
+323 silly get     age: '186',
+323 silly get     connection: 'keep-alive',
+323 silly get     'x-served-by': 'cache-ord1731-ORD',
+323 silly get     'x-cache': 'HIT',
+323 silly get     'x-cache-hits': '18',
+323 silly get     'x-timer': 'S1473874067.938671,VS0,VE0',
+323 silly get     vary: 'Accept-Encoding' } ]
+324 verbose etag https://registry.npmjs.org/has-ansi from cache
+325 verbose get saving has-ansi to /home/ubuntu/.npm/registry.npmjs.org/has-ansi/.cache.json
+326 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+327 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp/package.json
+328 silly addNameRange number 2 { name: 'supports-color',
+328 silly addNameRange   range: '>=2.0.0 <3.0.0',
+328 silly addNameRange   hasData: true }
+329 silly addNameRange versions [ 'supports-color',
+329 silly addNameRange   [ '0.2.0',
+329 silly addNameRange     '1.0.0',
+329 silly addNameRange     '1.1.0',
+329 silly addNameRange     '1.2.0',
+329 silly addNameRange     '1.2.1',
+329 silly addNameRange     '1.3.0',
+329 silly addNameRange     '1.3.1',
+329 silly addNameRange     '2.0.0',
+329 silly addNameRange     '3.0.0',
+329 silly addNameRange     '3.0.1',
+329 silly addNameRange     '3.1.0',
+329 silly addNameRange     '3.1.1',
+329 silly addNameRange     '3.1.2' ] ]
+330 silly addNamed supports-color@2.0.0
+331 verbose addNamed "2.0.0" is a plain semver version for supports-color
+332 http 304 https://registry.npmjs.org/strip-ansi
+333 verbose headers { date: 'Wed, 14 Sep 2016 17:27:47 GMT',
+333 verbose headers   via: '1.1 varnish',
+333 verbose headers   'cache-control': 'max-age=300',
+333 verbose headers   etag: '"B6TG8P0JRVWX1Y3QTWOIVFFNQ"',
+333 verbose headers   age: '288',
+333 verbose headers   connection: 'keep-alive',
+333 verbose headers   'x-served-by': 'cache-ord1731-ORD',
+333 verbose headers   'x-cache': 'HIT',
+333 verbose headers   'x-cache-hits': '31',
+333 verbose headers   'x-timer': 'S1473874067.942882,VS0,VE0',
+333 verbose headers   vary: 'Accept-Encoding' }
+334 silly get cb [ 304,
+334 silly get   { date: 'Wed, 14 Sep 2016 17:27:47 GMT',
+334 silly get     via: '1.1 varnish',
+334 silly get     'cache-control': 'max-age=300',
+334 silly get     etag: '"B6TG8P0JRVWX1Y3QTWOIVFFNQ"',
+334 silly get     age: '288',
+334 silly get     connection: 'keep-alive',
+334 silly get     'x-served-by': 'cache-ord1731-ORD',
+334 silly get     'x-cache': 'HIT',
+334 silly get     'x-cache-hits': '31',
+334 silly get     'x-timer': 'S1473874067.942882,VS0,VE0',
+334 silly get     vary: 'Accept-Encoding' } ]
+335 verbose etag https://registry.npmjs.org/strip-ansi from cache
+336 verbose get saving strip-ansi to /home/ubuntu/.npm/registry.npmjs.org/strip-ansi/.cache.json
+337 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+338 silly addNameRange number 2 { name: 'has-ansi', range: '>=2.0.0 <3.0.0', hasData: true }
+339 silly addNameRange versions [ 'has-ansi',
+339 silly addNameRange   [ '0.1.0', '1.0.0', '1.0.1', '1.0.2', '1.0.3', '2.0.0' ] ]
+340 silly addNamed has-ansi@2.0.0
+341 verbose addNamed "2.0.0" is a plain semver version for has-ansi
+342 silly install resolved []
+343 verbose about to build /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp
+344 info build /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp
+345 silly cache afterAdd supports-color@2.0.0
+346 verbose afterAdd /home/ubuntu/.npm/supports-color/2.0.0/package/package.json not in flight; writing
+347 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+348 silly cache afterAdd has-ansi@2.0.0
+349 verbose afterAdd /home/ubuntu/.npm/has-ansi/2.0.0/package/package.json not in flight; writing
+350 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+351 silly addNameRange number 2 { name: 'strip-ansi', range: '>=3.0.0 <4.0.0', hasData: true }
+352 silly addNameRange versions [ 'strip-ansi',
+352 silly addNameRange   [ '0.1.0',
+352 silly addNameRange     '0.1.1',
+352 silly addNameRange     '0.2.0',
+352 silly addNameRange     '0.2.1',
+352 silly addNameRange     '0.2.2',
+352 silly addNameRange     '0.3.0',
+352 silly addNameRange     '1.0.0',
+352 silly addNameRange     '2.0.0',
+352 silly addNameRange     '2.0.1',
+352 silly addNameRange     '3.0.0',
+352 silly addNameRange     '3.0.1' ] ]
+353 silly addNamed strip-ansi@3.0.1
+354 verbose addNamed "3.0.1" is a plain semver version for strip-ansi
+355 info linkStuff file-sync-cmp@0.1.1
+356 silly linkStuff file-sync-cmp@0.1.1 has /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules as its parent node_modules
+357 verbose afterAdd /home/ubuntu/.npm/supports-color/2.0.0/package/package.json written
+358 verbose afterAdd /home/ubuntu/.npm/has-ansi/2.0.0/package/package.json written
+359 silly cache afterAdd strip-ansi@3.0.1
+360 verbose afterAdd /home/ubuntu/.npm/strip-ansi/3.0.1/package/package.json not in flight; writing
+361 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+362 verbose linkBins file-sync-cmp@0.1.1
+363 verbose linkMans file-sync-cmp@0.1.1
+364 verbose rebuildBundles file-sync-cmp@0.1.1
+365 info install file-sync-cmp@0.1.1
+366 verbose afterAdd /home/ubuntu/.npm/strip-ansi/3.0.1/package/package.json written
+367 silly install resolved [ { name: 'ansi-styles',
+367 silly install resolved     version: '2.2.1',
+367 silly install resolved     description: 'ANSI escape codes for styling strings in the terminal',
+367 silly install resolved     license: 'MIT',
+367 silly install resolved     repository:
+367 silly install resolved      { type: 'git',
+367 silly install resolved        url: 'git+https://github.com/chalk/ansi-styles.git' },
+367 silly install resolved     author:
+367 silly install resolved      { name: 'Sindre Sorhus',
+367 silly install resolved        email: 'sindresorhus@gmail.com',
+367 silly install resolved        url: 'sindresorhus.com' },
+367 silly install resolved     maintainers: [ [Object] ],
+367 silly install resolved     engines: { node: '>=0.10.0' },
+367 silly install resolved     scripts: { test: 'mocha' },
+367 silly install resolved     files: [ 'index.js' ],
+367 silly install resolved     keywords:
+367 silly install resolved      [ 'ansi',
+367 silly install resolved        'styles',
+367 silly install resolved        'color',
+367 silly install resolved        'colour',
+367 silly install resolved        'colors',
+367 silly install resolved        'terminal',
+367 silly install resolved        'console',
+367 silly install resolved        'cli',
+367 silly install resolved        'string',
+367 silly install resolved        'tty',
+367 silly install resolved        'escape',
+367 silly install resolved        'formatting',
+367 silly install resolved        'rgb',
+367 silly install resolved        '256',
+367 silly install resolved        'shell',
+367 silly install resolved        'xterm',
+367 silly install resolved        'log',
+367 silly install resolved        'logging',
+367 silly install resolved        'command-line',
+367 silly install resolved        'text' ],
+367 silly install resolved     devDependencies: { mocha: '*' },
+367 silly install resolved     gitHead: '95c59b23be760108b6530ca1c89477c21b258032',
+367 silly install resolved     bugs: { url: 'https://github.com/chalk/ansi-styles/issues' },
+367 silly install resolved     homepage: 'https://github.com/chalk/ansi-styles#readme',
+367 silly install resolved     _id: 'ansi-styles@2.2.1',
+367 silly install resolved     _shasum: 'b432dd3358b634cf75e1e4664368240533c1ddbe',
+367 silly install resolved     _from: 'ansi-styles@>=2.2.1 <3.0.0',
+367 silly install resolved     _npmVersion: '3.8.3',
+367 silly install resolved     _nodeVersion: '4.3.0',
+367 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+367 silly install resolved     dist:
+367 silly install resolved      { shasum: 'b432dd3358b634cf75e1e4664368240533c1ddbe',
+367 silly install resolved        tarball: 'https://registry.npmjs.org/ansi-styles/-/ansi-styles-2.2.1.tgz' },
+367 silly install resolved     _npmOperationalInternal:
+367 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+367 silly install resolved        tmp: 'tmp/ansi-styles-2.2.1.tgz_1459197317833_0.9694824463222176' },
+367 silly install resolved     directories: {},
+367 silly install resolved     _resolved: 'https://registry.npmjs.org/ansi-styles/-/ansi-styles-2.2.1.tgz',
+367 silly install resolved     readme: 'ERROR: No README data found!' },
+367 silly install resolved   { name: 'escape-string-regexp',
+367 silly install resolved     version: '1.0.5',
+367 silly install resolved     description: 'Escape RegExp special characters',
+367 silly install resolved     license: 'MIT',
+367 silly install resolved     repository:
+367 silly install resolved      { type: 'git',
+367 silly install resolved        url: 'git+https://github.com/sindresorhus/escape-string-regexp.git' },
+367 silly install resolved     author:
+367 silly install resolved      { name: 'Sindre Sorhus',
+367 silly install resolved        email: 'sindresorhus@gmail.com',
+367 silly install resolved        url: 'sindresorhus.com' },
+367 silly install resolved     maintainers: [ [Object], [Object] ],
+367 silly install resolved     engines: { node: '>=0.8.0' },
+367 silly install resolved     scripts: { test: 'xo && ava' },
+367 silly install resolved     files: [ 'index.js' ],
+367 silly install resolved     keywords:
+367 silly install resolved      [ 'escape',
+367 silly install resolved        'regex',
+367 silly install resolved        'regexp',
+367 silly install resolved        're',
+367 silly install resolved        'regular',
+367 silly install resolved        'expression',
+367 silly install resolved        'string',
+367 silly install resolved        'str',
+367 silly install resolved        'special',
+367 silly install resolved        'characters' ],
+367 silly install resolved     devDependencies: { ava: '*', xo: '*' },
+367 silly install resolved     gitHead: 'db124a3e1aae9d692c4899e42a5c6c3e329eaa20',
+367 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/escape-string-regexp/issues' },
+367 silly install resolved     homepage: 'https://github.com/sindresorhus/escape-string-regexp',
+367 silly install resolved     _id: 'escape-string-regexp@1.0.5',
+367 silly install resolved     _shasum: '1b61c0562190a8dff6ae3bb2cf0200ca130b86d4',
+367 silly install resolved     _from: 'escape-string-regexp@>=1.0.2 <2.0.0',
+367 silly install resolved     _npmVersion: '2.14.12',
+367 silly install resolved     _nodeVersion: '4.2.6',
+367 silly install resolved     _npmUser: { name: 'jbnicolai', email: 'jappelman@xebia.com' },
+367 silly install resolved     dist:
+367 silly install resolved      { shasum: '1b61c0562190a8dff6ae3bb2cf0200ca130b86d4',
+367 silly install resolved        tarball: 'https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz' },
+367 silly install resolved     _npmOperationalInternal:
+367 silly install resolved      { host: 'packages-9-west.internal.npmjs.com',
+367 silly install resolved        tmp: 'tmp/escape-string-regexp-1.0.5.tgz_1456059312074_0.7245344955008477' },
+367 silly install resolved     directories: {},
+367 silly install resolved     _resolved: 'https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz',
+367 silly install resolved     readme: 'ERROR: No README data found!' },
+367 silly install resolved   { name: 'supports-color',
+367 silly install resolved     version: '2.0.0',
+367 silly install resolved     description: 'Detect whether a terminal supports color',
+367 silly install resolved     license: 'MIT',
+367 silly install resolved     repository:
+367 silly install resolved      { type: 'git',
+367 silly install resolved        url: 'git+https://github.com/chalk/supports-color.git' },
+367 silly install resolved     author:
+367 silly install resolved      { name: 'Sindre Sorhus',
+367 silly install resolved        email: 'sindresorhus@gmail.com',
+367 silly install resolved        url: 'sindresorhus.com' },
+367 silly install resolved     maintainers: [ [Object], [Object] ],
+367 silly install resolved     engines: { node: '>=0.8.0' },
+367 silly install resolved     scripts: { test: 'mocha' },
+367 silly install resolved     files: [ 'index.js' ],
+367 silly install resolved     keywords:
+367 silly install resolved      [ 'color',
+367 silly install resolved        'colour',
+367 silly install resolved        'colors',
+367 silly install resolved        'terminal',
+367 silly install resolved        'console',
+367 silly install resolved        'cli',
+367 silly install resolved        'ansi',
+367 silly install resolved        'styles',
+367 silly install resolved        'tty',
+367 silly install resolved        'rgb',
+367 silly install resolved        '256',
+367 silly install resolved        'shell',
+367 silly install resolved        'xterm',
+367 silly install resolved        'command-line',
+367 silly install resolved        'support',
+367 silly install resolved        'supports',
+367 silly install resolved        'capability',
+367 silly install resolved        'detect' ],
+367 silly install resolved     devDependencies: { mocha: '*', 'require-uncached': '^1.0.2' },
+367 silly install resolved     gitHead: '8400d98ade32b2adffd50902c06d9e725a5c6588',
+367 silly install resolved     bugs: { url: 'https://github.com/chalk/supports-color/issues' },
+367 silly install resolved     homepage: 'https://github.com/chalk/supports-color',
+367 silly install resolved     _id: 'supports-color@2.0.0',
+367 silly install resolved     _shasum: '535d045ce6b6363fa40117084629995e9df324c7',
+367 silly install resolved     _from: 'supports-color@>=2.0.0 <3.0.0',
+367 silly install resolved     _npmVersion: '2.11.2',
+367 silly install resolved     _nodeVersion: '0.12.5',
+367 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+367 silly install resolved     dist:
+367 silly install resolved      { shasum: '535d045ce6b6363fa40117084629995e9df324c7',
+367 silly install resolved        tarball: 'https://registry.npmjs.org/supports-color/-/supports-color-2.0.0.tgz' },
+367 silly install resolved     directories: {},
+367 silly install resolved     _resolved: 'https://registry.npmjs.org/supports-color/-/supports-color-2.0.0.tgz',
+367 silly install resolved     readme: 'ERROR: No README data found!' },
+367 silly install resolved   { name: 'has-ansi',
+367 silly install resolved     version: '2.0.0',
+367 silly install resolved     description: 'Check if a string has ANSI escape codes',
+367 silly install resolved     license: 'MIT',
+367 silly install resolved     repository:
+367 silly install resolved      { type: 'git',
+367 silly install resolved        url: 'git+https://github.com/sindresorhus/has-ansi.git' },
+367 silly install resolved     author:
+367 silly install resolved      { name: 'Sindre Sorhus',
+367 silly install resolved        email: 'sindresorhus@gmail.com',
+367 silly install resolved        url: 'sindresorhus.com' },
+367 silly install resolved     maintainers: [ [Object], [Object] ],
+367 silly install resolved     engines: { node: '>=0.10.0' },
+367 silly install resolved     scripts: { test: 'node test.js' },
+367 silly install resolved     files: [ 'index.js' ],
+367 silly install resolved     keywords:
+367 silly install resolved      [ 'ansi',
+367 silly install resolved        'styles',
+367 silly install resolved        'color',
+367 silly install resolved        'colour',
+367 silly install resolved        'colors',
+367 silly install resolved        'terminal',
+367 silly install resolved        'console',
+367 silly install resolved        'string',
+367 silly install resolved        'tty',
+367 silly install resolved        'escape',
+367 silly install resolved        'shell',
+367 silly install resolved        'xterm',
+367 silly install resolved        'command-line',
+367 silly install resolved        'text',
+367 silly install resolved        'regex',
+367 silly install resolved        'regexp',
+367 silly install resolved        're',
+367 silly install resolved        'match',
+367 silly install resolved        'test',
+367 silly install resolved        'find',
+367 silly install resolved        'pattern',
+367 silly install resolved        'has' ],
+367 silly install resolved     dependencies: { 'ansi-regex': '^2.0.0' },
+367 silly install resolved     devDependencies: { ava: '0.0.4' },
+367 silly install resolved     gitHead: '0722275e1bef139fcd09137da6e5550c3cd368b9',
+367 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/has-ansi/issues' },
+367 silly install resolved     homepage: 'https://github.com/sindresorhus/has-ansi',
+367 silly install resolved     _id: 'has-ansi@2.0.0',
+367 silly install resolved     _shasum: '34f5049ce1ecdf2b0649af3ef24e45ed35416d91',
+367 silly install resolved     _from: 'has-ansi@>=2.0.0 <3.0.0',
+367 silly install resolved     _npmVersion: '2.11.2',
+367 silly install resolved     _nodeVersion: '0.12.5',
+367 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+367 silly install resolved     dist:
+367 silly install resolved      { shasum: '34f5049ce1ecdf2b0649af3ef24e45ed35416d91',
+367 silly install resolved        tarball: 'https://registry.npmjs.org/has-ansi/-/has-ansi-2.0.0.tgz' },
+367 silly install resolved     directories: {},
+367 silly install resolved     _resolved: 'https://registry.npmjs.org/has-ansi/-/has-ansi-2.0.0.tgz',
+367 silly install resolved     readme: 'ERROR: No README data found!' },
+367 silly install resolved   { name: 'strip-ansi',
+367 silly install resolved     version: '3.0.1',
+367 silly install resolved     description: 'Strip ANSI escape codes',
+367 silly install resolved     license: 'MIT',
+367 silly install resolved     repository:
+367 silly install resolved      { type: 'git',
+367 silly install resolved        url: 'git+https://github.com/chalk/strip-ansi.git' },
+367 silly install resolved     author:
+367 silly install resolved      { name: 'Sindre Sorhus',
+367 silly install resolved        email: 'sindresorhus@gmail.com',
+367 silly install resolved        url: 'sindresorhus.com' },
+367 silly install resolved     maintainers: [ [Object], [Object] ],
+367 silly install resolved     engines: { node: '>=0.10.0' },
+367 silly install resolved     scripts: { test: 'xo && ava' },
+367 silly install resolved     files: [ 'index.js' ],
+367 silly install resolved     keywords:
+367 silly install resolved      [ 'strip',
+367 silly install resolved        'trim',
+367 silly install resolved        'remove',
+367 silly install resolved        'ansi',
+367 silly install resolved        'styles',
+367 silly install resolved        'color',
+367 silly install resolved        'colour',
+367 silly install resolved        'colors',
+367 silly install resolved        'terminal',
+367 silly install resolved        'console',
+367 silly install resolved        'string',
+367 silly install resolved        'tty',
+367 silly install resolved        'escape',
+367 silly install resolved        'formatting',
+367 silly install resolved        'rgb',
+367 silly install resolved        '256',
+367 silly install resolved        'shell',
+367 silly install resolved        'xterm',
+367 silly install resolved        'log',
+367 silly install resolved        'logging',
+367 silly install resolved        'command-line',
+367 silly install resolved        'text' ],
+367 silly install resolved     dependencies: { 'ansi-regex': '^2.0.0' },
+367 silly install resolved     devDependencies: { ava: '*', xo: '*' },
+367 silly install resolved     gitHead: '8270705c704956da865623e564eba4875c3ea17f',
+367 silly install resolved     bugs: { url: 'https://github.com/chalk/strip-ansi/issues' },
+367 silly install resolved     homepage: 'https://github.com/chalk/strip-ansi',
+367 silly install resolved     _id: 'strip-ansi@3.0.1',
+367 silly install resolved     _shasum: '6a385fb8853d952d5ff05d0e8aaf94278dc63dcf',
+367 silly install resolved     _from: 'strip-ansi@>=3.0.0 <4.0.0',
+367 silly install resolved     _npmVersion: '2.11.3',
+367 silly install resolved     _nodeVersion: '0.12.7',
+367 silly install resolved     _npmUser: { name: 'jbnicolai', email: 'jappelman@xebia.com' },
+367 silly install resolved     dist:
+367 silly install resolved      { shasum: '6a385fb8853d952d5ff05d0e8aaf94278dc63dcf',
+367 silly install resolved        tarball: 'https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz' },
+367 silly install resolved     _npmOperationalInternal:
+367 silly install resolved      { host: 'packages-9-west.internal.npmjs.com',
+367 silly install resolved        tmp: 'tmp/strip-ansi-3.0.1.tgz_1456057278183_0.28958667791448534' },
+367 silly install resolved     directories: {},
+367 silly install resolved     _resolved: 'https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz',
+367 silly install resolved     readme: 'ERROR: No README data found!' } ]
+368 info install ansi-styles@2.2.1 into /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk
+369 info install escape-string-regexp@1.0.5 into /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk
+370 info install supports-color@2.0.0 into /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk
+371 info install has-ansi@2.0.0 into /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk
+372 info install strip-ansi@3.0.1 into /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk
+373 info installOne ansi-styles@2.2.1
+374 verbose installOne of ansi-styles to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk not in flight; installing
+375 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+376 info installOne escape-string-regexp@1.0.5
+377 verbose installOne of escape-string-regexp to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk not in flight; installing
+378 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+379 info installOne supports-color@2.0.0
+380 verbose installOne of supports-color to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk not in flight; installing
+381 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+382 info installOne has-ansi@2.0.0
+383 verbose installOne of has-ansi to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk not in flight; installing
+384 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+385 info installOne strip-ansi@3.0.1
+386 verbose installOne of strip-ansi to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk not in flight; installing
+387 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+388 info postinstall file-sync-cmp@0.1.1
+389 verbose lock using /home/ubuntu/.npm/_locks/ansi-styles-8d279b61fbb17ff0.lock for /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles
+390 verbose lock using /home/ubuntu/.npm/_locks/escape-string-regexp-6d58b4068ab4274a.lock for /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp
+391 verbose lock using /home/ubuntu/.npm/_locks/supports-color-fb5f4bebba265869.lock for /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color
+392 verbose lock using /home/ubuntu/.npm/_locks/has-ansi-4c37ad12ffcf3b33.lock for /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi
+393 verbose lock using /home/ubuntu/.npm/_locks/strip-ansi-45e1308f7b726a3d.lock for /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi
+394 silly install write writing ansi-styles 2.2.1 to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles
+395 silly install write writing escape-string-regexp 1.0.5 to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp
+396 silly install write writing supports-color 2.0.0 to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color
+397 silly install write writing has-ansi 2.0.0 to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi
+398 silly install write writing strip-ansi 3.0.1 to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi
+399 verbose unlock done using /home/ubuntu/.npm/_locks/file-sync-cmp-a761b186746a9487.lock for /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/file-sync-cmp
+400 verbose unbuild node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles
+401 verbose unbuild node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color
+402 verbose unbuild node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp
+403 verbose unbuild node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi
+404 verbose unbuild node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi
+405 silly gentlyRm /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles is being purged from base /home/ubuntu/workspace/bloc/bloc-jams-angular
+406 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles
+407 silly gentlyRm /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color is being purged from base /home/ubuntu/workspace/bloc/bloc-jams-angular
+408 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color
+409 silly gentlyRm /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp is being purged from base /home/ubuntu/workspace/bloc/bloc-jams-angular
+410 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp
+411 silly gentlyRm /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi is being purged from base /home/ubuntu/workspace/bloc/bloc-jams-angular
+412 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi
+413 silly gentlyRm /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi is being purged from base /home/ubuntu/workspace/bloc/bloc-jams-angular
+414 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi
+415 verbose tar unpack /home/ubuntu/.npm/ansi-styles/2.2.1/package.tgz
+416 verbose tar unpacking to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles
+417 silly gentlyRm /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles is being purged
+418 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles
+419 verbose tar unpack /home/ubuntu/.npm/supports-color/2.0.0/package.tgz
+420 verbose tar unpacking to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color
+421 silly gentlyRm /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color is being purged
+422 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color
+423 verbose tar unpack /home/ubuntu/.npm/escape-string-regexp/1.0.5/package.tgz
+424 verbose tar unpacking to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp
+425 silly gentlyRm /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp is being purged
+426 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp
+427 verbose tar unpack /home/ubuntu/.npm/strip-ansi/3.0.1/package.tgz
+428 verbose tar unpacking to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi
+429 silly gentlyRm /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi is being purged
+430 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi
+431 verbose tar unpack /home/ubuntu/.npm/has-ansi/2.0.0/package.tgz
+432 verbose tar unpacking to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi
+433 silly gentlyRm /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi is being purged
+434 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi
+435 silly gunzTarPerm modes [ '755', '644' ]
+436 silly gunzTarPerm modes [ '755', '644' ]
+437 silly gunzTarPerm modes [ '755', '644' ]
+438 silly gunzTarPerm modes [ '755', '644' ]
+439 silly gunzTarPerm modes [ '755', '644' ]
+440 silly gunzTarPerm extractEntry package.json
+441 silly gunzTarPerm extractEntry package.json
+442 silly gunzTarPerm extractEntry package.json
+443 silly gunzTarPerm extractEntry package.json
+444 silly gunzTarPerm extractEntry package.json
+445 silly gunzTarPerm extractEntry index.js
+446 silly gunzTarPerm extractEntry license
+447 silly gunzTarPerm extractEntry index.js
+448 silly gunzTarPerm extractEntry license
+449 silly gunzTarPerm extractEntry index.js
+450 silly gunzTarPerm extractEntry license
+451 silly gunzTarPerm extractEntry index.js
+452 silly gunzTarPerm extractEntry license
+453 silly gunzTarPerm extractEntry index.js
+454 silly gunzTarPerm extractEntry license
+455 silly gunzTarPerm extractEntry readme.md
+456 silly gunzTarPerm extractEntry readme.md
+457 silly gunzTarPerm extractEntry readme.md
+458 silly gunzTarPerm extractEntry readme.md
+459 silly gunzTarPerm extractEntry readme.md
+460 verbose write writing to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/package.json
+461 verbose write writing to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp/package.json
+462 verbose write writing to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles/package.json
+463 verbose write writing to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color/package.json
+464 verbose write writing to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/package.json
+465 info preinstall ansi-styles@2.2.1
+466 info preinstall escape-string-regexp@1.0.5
+467 info preinstall strip-ansi@3.0.1
+468 info preinstall supports-color@2.0.0
+469 info preinstall has-ansi@2.0.0
+470 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles/package.json
+471 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp/package.json
+472 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/package.json
+473 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color/package.json
+474 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/package.json
+475 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles/package.json
+476 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp/package.json
+477 silly prepareForInstallMany adding ansi-regex@^2.0.0 from strip-ansi dependencies
+478 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/package.json
+479 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color/package.json
+480 silly prepareForInstallMany adding ansi-regex@^2.0.0 from has-ansi dependencies
+481 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/package.json
+482 silly install resolved []
+483 verbose about to build /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles
+484 info build /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles
+485 silly install resolved []
+486 verbose about to build /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp
+487 info build /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp
+488 silly install resolved []
+489 verbose about to build /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color
+490 info build /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color
+491 silly cache add args [ 'ansi-regex@^2.0.0', null ]
+492 verbose cache add spec ansi-regex@^2.0.0
+493 silly cache add args [ 'ansi-regex@^2.0.0', null ]
+494 verbose cache add spec ansi-regex@^2.0.0
+495 silly cache add parsed spec Result {
+495 silly cache add   raw: 'ansi-regex@^2.0.0',
+495 silly cache add   scope: null,
+495 silly cache add   name: 'ansi-regex',
+495 silly cache add   rawSpec: '^2.0.0',
+495 silly cache add   spec: '>=2.0.0 <3.0.0',
+495 silly cache add   type: 'range' }
+496 silly addNamed ansi-regex@>=2.0.0 <3.0.0
+497 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for ansi-regex
+498 silly addNameRange { name: 'ansi-regex', range: '>=2.0.0 <3.0.0', hasData: false }
+499 silly mapToRegistry name ansi-regex
+500 silly mapToRegistry using default registry
+501 silly mapToRegistry registry https://registry.npmjs.org/
+502 silly mapToRegistry data Result {
+502 silly mapToRegistry   raw: 'ansi-regex',
+502 silly mapToRegistry   scope: null,
+502 silly mapToRegistry   name: 'ansi-regex',
+502 silly mapToRegistry   rawSpec: '',
+502 silly mapToRegistry   spec: 'latest',
+502 silly mapToRegistry   type: 'tag' }
+503 silly mapToRegistry uri https://registry.npmjs.org/ansi-regex
+504 verbose addNameRange registry:https://registry.npmjs.org/ansi-regex not in flight; fetching
+505 silly cache add parsed spec Result {
+505 silly cache add   raw: 'ansi-regex@^2.0.0',
+505 silly cache add   scope: null,
+505 silly cache add   name: 'ansi-regex',
+505 silly cache add   rawSpec: '^2.0.0',
+505 silly cache add   spec: '>=2.0.0 <3.0.0',
+505 silly cache add   type: 'range' }
+506 silly addNamed ansi-regex@>=2.0.0 <3.0.0
+507 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for ansi-regex
+508 silly addNameRange { name: 'ansi-regex', range: '>=2.0.0 <3.0.0', hasData: false }
+509 silly mapToRegistry name ansi-regex
+510 silly mapToRegistry using default registry
+511 silly mapToRegistry registry https://registry.npmjs.org/
+512 silly mapToRegistry data Result {
+512 silly mapToRegistry   raw: 'ansi-regex',
+512 silly mapToRegistry   scope: null,
+512 silly mapToRegistry   name: 'ansi-regex',
+512 silly mapToRegistry   rawSpec: '',
+512 silly mapToRegistry   spec: 'latest',
+512 silly mapToRegistry   type: 'tag' }
+513 silly mapToRegistry uri https://registry.npmjs.org/ansi-regex
+514 verbose addNameRange registry:https://registry.npmjs.org/ansi-regex already in flight; waiting
+515 info linkStuff ansi-styles@2.2.1
+516 silly linkStuff ansi-styles@2.2.1 has /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules as its parent node_modules
+517 info linkStuff escape-string-regexp@1.0.5
+518 silly linkStuff escape-string-regexp@1.0.5 has /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules as its parent node_modules
+519 info linkStuff supports-color@2.0.0
+520 silly linkStuff supports-color@2.0.0 has /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules as its parent node_modules
+521 verbose request uri https://registry.npmjs.org/ansi-regex
+522 verbose request no auth needed
+523 info attempt registry request try #1 at 5:27:48 PM
+524 verbose etag "BN63D3KK8WIQW515ZAUE2LOAL"
+525 http request GET https://registry.npmjs.org/ansi-regex
+526 verbose linkBins ansi-styles@2.2.1
+527 verbose linkMans ansi-styles@2.2.1
+528 verbose rebuildBundles ansi-styles@2.2.1
+529 info install ansi-styles@2.2.1
+530 verbose linkBins escape-string-regexp@1.0.5
+531 verbose linkMans escape-string-regexp@1.0.5
+532 verbose rebuildBundles escape-string-regexp@1.0.5
+533 info install escape-string-regexp@1.0.5
+534 info postinstall ansi-styles@2.2.1
+535 verbose linkBins supports-color@2.0.0
+536 verbose linkMans supports-color@2.0.0
+537 verbose rebuildBundles supports-color@2.0.0
+538 info postinstall escape-string-regexp@1.0.5
+539 info install supports-color@2.0.0
+540 http 304 https://registry.npmjs.org/ansi-regex
+541 verbose headers { date: 'Wed, 14 Sep 2016 17:27:48 GMT',
+541 verbose headers   via: '1.1 varnish',
+541 verbose headers   'cache-control': 'max-age=300',
+541 verbose headers   etag: '"BN63D3KK8WIQW515ZAUE2LOAL"',
+541 verbose headers   age: '289',
+541 verbose headers   connection: 'keep-alive',
+541 verbose headers   'x-served-by': 'cache-ord1741-ORD',
+541 verbose headers   'x-cache': 'HIT',
+541 verbose headers   'x-cache-hits': '37',
+541 verbose headers   'x-timer': 'S1473874068.143475,VS0,VE0',
+541 verbose headers   vary: 'Accept-Encoding' }
+542 silly get cb [ 304,
+542 silly get   { date: 'Wed, 14 Sep 2016 17:27:48 GMT',
+542 silly get     via: '1.1 varnish',
+542 silly get     'cache-control': 'max-age=300',
+542 silly get     etag: '"BN63D3KK8WIQW515ZAUE2LOAL"',
+542 silly get     age: '289',
+542 silly get     connection: 'keep-alive',
+542 silly get     'x-served-by': 'cache-ord1741-ORD',
+542 silly get     'x-cache': 'HIT',
+542 silly get     'x-cache-hits': '37',
+542 silly get     'x-timer': 'S1473874068.143475,VS0,VE0',
+542 silly get     vary: 'Accept-Encoding' } ]
+543 verbose etag https://registry.npmjs.org/ansi-regex from cache
+544 verbose get saving ansi-regex to /home/ubuntu/.npm/registry.npmjs.org/ansi-regex/.cache.json
+545 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+546 verbose unlock done using /home/ubuntu/.npm/_locks/ansi-styles-8d279b61fbb17ff0.lock for /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/ansi-styles
+547 info postinstall supports-color@2.0.0
+548 verbose unlock done using /home/ubuntu/.npm/_locks/escape-string-regexp-6d58b4068ab4274a.lock for /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/escape-string-regexp
+549 verbose unlock done using /home/ubuntu/.npm/_locks/supports-color-fb5f4bebba265869.lock for /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/supports-color
+550 silly addNameRange number 2 { name: 'ansi-regex', range: '>=2.0.0 <3.0.0', hasData: true }
+551 silly addNameRange versions [ 'ansi-regex',
+551 silly addNameRange   [ '0.1.0', '0.2.0', '0.2.1', '1.0.0', '1.1.0', '1.1.1', '2.0.0' ] ]
+552 silly addNamed ansi-regex@2.0.0
+553 verbose addNamed "2.0.0" is a plain semver version for ansi-regex
+554 silly addNameRange number 2 { name: 'ansi-regex', range: '>=2.0.0 <3.0.0', hasData: true }
+555 silly addNameRange versions [ 'ansi-regex',
+555 silly addNameRange   [ '0.1.0', '0.2.0', '0.2.1', '1.0.0', '1.1.0', '1.1.1', '2.0.0' ] ]
+556 silly addNamed ansi-regex@2.0.0
+557 verbose addNamed "2.0.0" is a plain semver version for ansi-regex
+558 silly cache afterAdd ansi-regex@2.0.0
+559 verbose afterAdd /home/ubuntu/.npm/ansi-regex/2.0.0/package/package.json not in flight; writing
+560 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+561 silly cache afterAdd ansi-regex@2.0.0
+562 verbose afterAdd /home/ubuntu/.npm/ansi-regex/2.0.0/package/package.json already in flight; not writing
+563 verbose afterAdd /home/ubuntu/.npm/ansi-regex/2.0.0/package/package.json written
+564 silly install resolved [ { name: 'ansi-regex',
+564 silly install resolved     version: '2.0.0',
+564 silly install resolved     description: 'Regular expression for matching ANSI escape codes',
+564 silly install resolved     license: 'MIT',
+564 silly install resolved     repository:
+564 silly install resolved      { type: 'git',
+564 silly install resolved        url: 'git+https://github.com/sindresorhus/ansi-regex.git' },
+564 silly install resolved     author:
+564 silly install resolved      { name: 'Sindre Sorhus',
+564 silly install resolved        email: 'sindresorhus@gmail.com',
+564 silly install resolved        url: 'sindresorhus.com' },
+564 silly install resolved     maintainers: [ [Object], [Object] ],
+564 silly install resolved     engines: { node: '>=0.10.0' },
+564 silly install resolved     scripts:
+564 silly install resolved      { test: 'mocha test/test.js',
+564 silly install resolved        'view-supported': 'node test/viewCodes.js' },
+564 silly install resolved     files: [ 'index.js' ],
+564 silly install resolved     keywords:
+564 silly install resolved      [ 'ansi',
+564 silly install resolved        'styles',
+564 silly install resolved        'color',
+564 silly install resolved        'colour',
+564 silly install resolved        'colors',
+564 silly install resolved        'terminal',
+564 silly install resolved        'console',
+564 silly install resolved        'cli',
+564 silly install resolved        'string',
+564 silly install resolved        'tty',
+564 silly install resolved        'escape',
+564 silly install resolved        'formatting',
+564 silly install resolved        'rgb',
+564 silly install resolved        '256',
+564 silly install resolved        'shell',
+564 silly install resolved        'xterm',
+564 silly install resolved        'command-line',
+564 silly install resolved        'text',
+564 silly install resolved        'regex',
+564 silly install resolved        'regexp',
+564 silly install resolved        're',
+564 silly install resolved        'match',
+564 silly install resolved        'test',
+564 silly install resolved        'find',
+564 silly install resolved        'pattern' ],
+564 silly install resolved     devDependencies: { mocha: '*' },
+564 silly install resolved     gitHead: '57c3f2941a73079fa8b081e02a522e3d29913e2f',
+564 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/ansi-regex/issues' },
+564 silly install resolved     homepage: 'https://github.com/sindresorhus/ansi-regex',
+564 silly install resolved     _id: 'ansi-regex@2.0.0',
+564 silly install resolved     _shasum: 'c5061b6e0ef8a81775e50f5d66151bf6bf371107',
+564 silly install resolved     _from: 'ansi-regex@>=2.0.0 <3.0.0',
+564 silly install resolved     _npmVersion: '2.11.2',
+564 silly install resolved     _nodeVersion: '0.12.5',
+564 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+564 silly install resolved     dist:
+564 silly install resolved      { shasum: 'c5061b6e0ef8a81775e50f5d66151bf6bf371107',
+564 silly install resolved        tarball: 'https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.0.0.tgz' },
+564 silly install resolved     directories: {},
+564 silly install resolved     _resolved: 'https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.0.0.tgz',
+564 silly install resolved     readme: 'ERROR: No README data found!' } ]
+565 info install ansi-regex@2.0.0 into /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi
+566 info installOne ansi-regex@2.0.0
+567 verbose installOne of ansi-regex to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi not in flight; installing
+568 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+569 silly install resolved [ { name: 'ansi-regex',
+569 silly install resolved     version: '2.0.0',
+569 silly install resolved     description: 'Regular expression for matching ANSI escape codes',
+569 silly install resolved     license: 'MIT',
+569 silly install resolved     repository:
+569 silly install resolved      { type: 'git',
+569 silly install resolved        url: 'git+https://github.com/sindresorhus/ansi-regex.git' },
+569 silly install resolved     author:
+569 silly install resolved      { name: 'Sindre Sorhus',
+569 silly install resolved        email: 'sindresorhus@gmail.com',
+569 silly install resolved        url: 'sindresorhus.com' },
+569 silly install resolved     maintainers: [ [Object], [Object] ],
+569 silly install resolved     engines: { node: '>=0.10.0' },
+569 silly install resolved     scripts:
+569 silly install resolved      { test: 'mocha test/test.js',
+569 silly install resolved        'view-supported': 'node test/viewCodes.js' },
+569 silly install resolved     files: [ 'index.js' ],
+569 silly install resolved     keywords:
+569 silly install resolved      [ 'ansi',
+569 silly install resolved        'styles',
+569 silly install resolved        'color',
+569 silly install resolved        'colour',
+569 silly install resolved        'colors',
+569 silly install resolved        'terminal',
+569 silly install resolved        'console',
+569 silly install resolved        'cli',
+569 silly install resolved        'string',
+569 silly install resolved        'tty',
+569 silly install resolved        'escape',
+569 silly install resolved        'formatting',
+569 silly install resolved        'rgb',
+569 silly install resolved        '256',
+569 silly install resolved        'shell',
+569 silly install resolved        'xterm',
+569 silly install resolved        'command-line',
+569 silly install resolved        'text',
+569 silly install resolved        'regex',
+569 silly install resolved        'regexp',
+569 silly install resolved        're',
+569 silly install resolved        'match',
+569 silly install resolved        'test',
+569 silly install resolved        'find',
+569 silly install resolved        'pattern' ],
+569 silly install resolved     devDependencies: { mocha: '*' },
+569 silly install resolved     gitHead: '57c3f2941a73079fa8b081e02a522e3d29913e2f',
+569 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/ansi-regex/issues' },
+569 silly install resolved     homepage: 'https://github.com/sindresorhus/ansi-regex',
+569 silly install resolved     _id: 'ansi-regex@2.0.0',
+569 silly install resolved     _shasum: 'c5061b6e0ef8a81775e50f5d66151bf6bf371107',
+569 silly install resolved     _from: 'ansi-regex@>=2.0.0 <3.0.0',
+569 silly install resolved     _npmVersion: '2.11.2',
+569 silly install resolved     _nodeVersion: '0.12.5',
+569 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+569 silly install resolved     dist:
+569 silly install resolved      { shasum: 'c5061b6e0ef8a81775e50f5d66151bf6bf371107',
+569 silly install resolved        tarball: 'https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.0.0.tgz' },
+569 silly install resolved     directories: {},
+569 silly install resolved     _resolved: 'https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.0.0.tgz',
+569 silly install resolved     readme: 'ERROR: No README data found!' } ]
+570 info install ansi-regex@2.0.0 into /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi
+571 info installOne ansi-regex@2.0.0
+572 verbose installOne of ansi-regex to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi not in flight; installing
+573 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+574 verbose lock using /home/ubuntu/.npm/_locks/ansi-regex-7115c63896e7f7c0.lock for /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+575 verbose lock using /home/ubuntu/.npm/_locks/ansi-regex-8d970754b88fb806.lock for /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+576 silly install write writing ansi-regex 2.0.0 to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+577 silly install write writing ansi-regex 2.0.0 to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+578 verbose unbuild node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+579 verbose unbuild node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+580 silly gentlyRm /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex is being purged from base /home/ubuntu/workspace/bloc/bloc-jams-angular
+581 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+582 verbose tar unpack /home/ubuntu/.npm/ansi-regex/2.0.0/package.tgz
+583 verbose tar unpacking to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+584 silly gentlyRm /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex is being purged
+585 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+586 silly gentlyRm /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex is being purged from base /home/ubuntu/workspace/bloc/bloc-jams-angular
+587 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+588 silly gunzTarPerm modes [ '755', '644' ]
+589 verbose tar unpack /home/ubuntu/.npm/ansi-regex/2.0.0/package.tgz
+590 verbose tar unpacking to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+591 silly gentlyRm /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex is being purged
+592 verbose gentlyRm don't care about contents; nuking /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+593 silly gunzTarPerm modes [ '755', '644' ]
+594 silly gunzTarPerm extractEntry package.json
+595 silly gunzTarPerm extractEntry package.json
+596 silly gunzTarPerm extractEntry index.js
+597 silly gunzTarPerm extractEntry license
+598 silly gunzTarPerm extractEntry index.js
+599 silly gunzTarPerm extractEntry license
+600 silly gunzTarPerm extractEntry readme.md
+601 silly gunzTarPerm extractEntry readme.md
+602 verbose write writing to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/package.json
+603 verbose write writing to /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/package.json
+604 info preinstall ansi-regex@2.0.0
+605 info preinstall ansi-regex@2.0.0
+606 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/package.json
+607 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/package.json
+608 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex/package.json
+609 verbose readDependencies loading dependencies from /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex/package.json
+610 silly install resolved []
+611 verbose about to build /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+612 info build /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+613 silly install resolved []
+614 verbose about to build /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+615 info build /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+616 info linkStuff ansi-regex@2.0.0
+617 silly linkStuff ansi-regex@2.0.0 has /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules as its parent node_modules
+618 info linkStuff ansi-regex@2.0.0
+619 silly linkStuff ansi-regex@2.0.0 has /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules as its parent node_modules
+620 verbose linkBins ansi-regex@2.0.0
+621 verbose linkMans ansi-regex@2.0.0
+622 verbose rebuildBundles ansi-regex@2.0.0
+623 info install ansi-regex@2.0.0
+624 verbose linkBins ansi-regex@2.0.0
+625 verbose linkMans ansi-regex@2.0.0
+626 verbose rebuildBundles ansi-regex@2.0.0
+627 info install ansi-regex@2.0.0
+628 info postinstall ansi-regex@2.0.0
+629 info postinstall ansi-regex@2.0.0
+630 verbose unlock done using /home/ubuntu/.npm/_locks/ansi-regex-7115c63896e7f7c0.lock for /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi/node_modules/ansi-regex
+631 verbose about to build /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi
+632 info build /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi
+633 verbose unlock done using /home/ubuntu/.npm/_locks/ansi-regex-8d970754b88fb806.lock for /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi/node_modules/ansi-regex
+634 verbose about to build /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi
+635 info build /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi
+636 info linkStuff has-ansi@2.0.0
+637 silly linkStuff has-ansi@2.0.0 has /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules as its parent node_modules
+638 info linkStuff strip-ansi@3.0.1
+639 silly linkStuff strip-ansi@3.0.1 has /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules as its parent node_modules
+640 verbose linkBins has-ansi@2.0.0
+641 verbose linkMans has-ansi@2.0.0
+642 verbose rebuildBundles has-ansi@2.0.0
+643 verbose linkBins strip-ansi@3.0.1
+644 verbose linkMans strip-ansi@3.0.1
+645 verbose rebuildBundles strip-ansi@3.0.1
+646 verbose rebuildBundles [ 'ansi-regex' ]
+647 info install has-ansi@2.0.0
+648 verbose rebuildBundles [ 'ansi-regex' ]
+649 info install strip-ansi@3.0.1
+650 info postinstall has-ansi@2.0.0
+651 info postinstall strip-ansi@3.0.1
+652 verbose unlock done using /home/ubuntu/.npm/_locks/has-ansi-4c37ad12ffcf3b33.lock for /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/has-ansi
+653 verbose unlock done using /home/ubuntu/.npm/_locks/strip-ansi-45e1308f7b726a3d.lock for /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk/node_modules/strip-ansi
+654 verbose about to build /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk
+655 info build /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk
+656 info linkStuff chalk@1.1.3
+657 silly linkStuff chalk@1.1.3 has /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules as its parent node_modules
+658 verbose linkBins chalk@1.1.3
+659 verbose linkMans chalk@1.1.3
+660 verbose rebuildBundles chalk@1.1.3
+661 verbose rebuildBundles [ 'ansi-styles',
+661 verbose rebuildBundles   'escape-string-regexp',
+661 verbose rebuildBundles   'has-ansi',
+661 verbose rebuildBundles   'strip-ansi',
+661 verbose rebuildBundles   'supports-color' ]
+662 info install chalk@1.1.3
+663 info postinstall chalk@1.1.3
+664 verbose unlock done using /home/ubuntu/.npm/_locks/chalk-1b0a043c715c467b.lock for /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy/node_modules/chalk
+665 verbose about to build /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy
+666 info build /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy
+667 info linkStuff grunt-contrib-copy@1.0.0
+668 silly linkStuff grunt-contrib-copy@1.0.0 has /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules as its parent node_modules
+669 verbose linkBins grunt-contrib-copy@1.0.0
+670 verbose linkMans grunt-contrib-copy@1.0.0
+671 verbose rebuildBundles grunt-contrib-copy@1.0.0
+672 verbose rebuildBundles [ 'chalk', 'file-sync-cmp' ]
+673 info install grunt-contrib-copy@1.0.0
+674 info postinstall grunt-contrib-copy@1.0.0
+675 verbose unlock done using /home/ubuntu/.npm/_locks/grunt-contrib-copy-199e12e1e656ea59.lock for /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-copy
+676 verbose validateInstall loading /home/ubuntu/workspace/bloc/bloc-jams-angular/package.json for validation
+677 warn unmet dependency /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-hapi requires grunt-contrib-watch@'~0.6.1' but will load
+677 warn unmet dependency /home/ubuntu/workspace/bloc/bloc-jams-angular/node_modules/grunt-contrib-watch,
+677 warn unmet dependency which is version 1.0.0
+678 verbose stack Error: The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+678 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/npm/lib/install.js:125:32
+678 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/npm/lib/install.js:268:7
+678 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+678 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+678 verbose stack     at cb (/home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+678 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+678 verbose stack     at cb (/home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+678 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+678 verbose stack     at cb (/home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+678 verbose stack     at /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+679 verbose cwd /home/ubuntu/workspace/bloc/bloc-jams-angular
+680 error Linux 4.2.0-c9
+681 error argv "/home/ubuntu/.nvm/versions/node/v4.4.3/bin/node" "/home/ubuntu/.nvm/versions/node/v4.4.3/bin/npm" "install" "grunt-contrib-copy" "--save-dev"
+682 error node v4.4.3
+683 error npm  v2.15.1
+684 error code EPEERINVALID
+685 error peerinvalid The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+685 error peerinvalid Peer grunt-hapi@0.8.1 wants grunt@~0.4.5
+685 error peerinvalid Peer grunt-contrib-clean@0.6.0 wants grunt@~0.4.0
+686 verbose exit [ 1, true ]
