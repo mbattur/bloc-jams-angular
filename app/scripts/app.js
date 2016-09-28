@@ -17,11 +17,11 @@
             })
             .state('collection', {
                 url: '/collection',
-                templateUrl: '/templates/collection'
+                templateUrl: '/templates/collection.html'
             });
     }
     
     angular
-        .module('blocJams', ['ui.router'])
-        .config(config);
-})();
+         .module('blocJams', ['ui.router'])
+         .config(config);
+ })();
