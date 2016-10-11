@@ -1,6 +1,13 @@
 (function() {
-    function SongPlayer() {
+    function SongPlayer(Fixtures) {
         var SongPlayer = {};
+        
+        /**
+         * @desc Gives access to AlbumPicasso
+         * @type {Object}
+         */
+        
+        var currentAlbum = Fixtures.getAlbum();
     
         /**
          * @desc Buzz object audio file
@@ -39,6 +46,15 @@
             song.playing = true;
         }
         
+        /**
+         * @function getSongIndex
+         * @desc gets index of a song
+         * @param {Object} song
+         */
+        var getSongIndex = function(song) {
+            return currentAlbum.songs.indexOf(song);
+        };
+        
         SongPlayer.currentSong = null;
         
         SongPlayer.play = function(song) {
@@ -57,6 +73,24 @@
             song = song || SongPlayer.currentSong;
             currentBuzzObject.pause();
             song.playing = false;
+        };
+        
+        /**
+         * @function previous
+         * @desc gets previous song
+         */
+        SongPlayer.previous = function() {
+            var currentSongIndex = getSongIndex(SongPlayer.currentSong);
+            currentSongIndex--;
+            
+            if (currentSongIndex < 0) {
+                currentBuzzObject.stop();
+                SongPlayer.currentSong.playing = null;
+            } else {
+                var song = currentAlbum.songs[currentSongIndex];
+                setSong(song);
+                playSong(song);
+            }
         };
         
         return SongPlayer;
