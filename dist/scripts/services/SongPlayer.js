@@ -112,7 +112,7 @@
             currentSongIndex++;
             
             if (currentSongIndex >= currentAlbum.songs.length) {
-                currentSongIndex = 0;
+                stopSong(song);
             } else {
                 var song = currentAlbum.songs[currentSongIndex];
                 setSong(song);
@@ -125,5 +125,5 @@
     
     angular
         .module('blocJams')
-        .factory('SongPlayer', SongPlayer);
+        .factory('SongPlayer', ['Fixtures', SongPlayer]);
 })();
